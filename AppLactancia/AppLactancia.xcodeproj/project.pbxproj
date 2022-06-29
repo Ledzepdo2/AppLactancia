@@ -17,6 +17,10 @@
 		6D179DFD286CCF100038BAED /* AppLactanciaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D179DFC286CCF100038BAED /* AppLactanciaTests.swift */; };
 		6D179E07286CCF100038BAED /* AppLactanciaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D179E06286CCF100038BAED /* AppLactanciaUITests.swift */; };
 		6D179E09286CCF100038BAED /* AppLactanciaUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D179E08286CCF100038BAED /* AppLactanciaUITestsLaunchTests.swift */; };
+		7023CDAA3C4F22447C17A5EC /* Pods_AppLactancia_AppLactanciaUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 565ACE681AED4DDA91C29E54 /* Pods_AppLactancia_AppLactanciaUITests.framework */; };
+		BC7D5099386C590EF4DB1974 /* Pods_AppLactancia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 262A3D0D3DADCF52ABB51551 /* Pods_AppLactancia.framework */; };
+		CEF7C0FF31ADB2238282D7EA /* Pods_AppLactanciaTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A0EE0EA5D6376737EEB8633 /* Pods_AppLactanciaTests.framework */; };
+		E55E2041286CF7CE00DB29E3 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E55E2040286CF7CE00DB29E3 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		262A3D0D3DADCF52ABB51551 /* Pods_AppLactancia.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppLactancia.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F722924B646F7D2600E4700 /* Pods-AppLactancia-AppLactanciaUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppLactancia-AppLactanciaUITests.debug.xcconfig"; path = "Target Support Files/Pods-AppLactancia-AppLactanciaUITests/Pods-AppLactancia-AppLactanciaUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		565ACE681AED4DDA91C29E54 /* Pods_AppLactancia_AppLactanciaUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppLactancia_AppLactanciaUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5DF6BA21F7DDE65391A96153 /* Pods-AppLactancia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppLactancia.debug.xcconfig"; path = "Target Support Files/Pods-AppLactancia/Pods-AppLactancia.debug.xcconfig"; sourceTree = "<group>"; };
 		6D179DDF286CCF0F0038BAED /* AppLactancia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppLactancia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D179DE2286CCF0F0038BAED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6D179DE4286CCF0F0038BAED /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -51,6 +59,12 @@
 		6D179E02286CCF100038BAED /* AppLactanciaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AppLactanciaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D179E06286CCF100038BAED /* AppLactanciaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLactanciaUITests.swift; sourceTree = "<group>"; };
 		6D179E08286CCF100038BAED /* AppLactanciaUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppLactanciaUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7CB1B6D415D2412F96BC9C39 /* Pods-AppLactanciaTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppLactanciaTests.debug.xcconfig"; path = "Target Support Files/Pods-AppLactanciaTests/Pods-AppLactanciaTests.debug.xcconfig"; sourceTree = "<group>"; };
+		951F0A025989E7C399F3DEF0 /* Pods-AppLactancia-AppLactanciaUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppLactancia-AppLactanciaUITests.release.xcconfig"; path = "Target Support Files/Pods-AppLactancia-AppLactanciaUITests/Pods-AppLactancia-AppLactanciaUITests.release.xcconfig"; sourceTree = "<group>"; };
+		9A0EE0EA5D6376737EEB8633 /* Pods_AppLactanciaTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppLactanciaTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E55E2040286CF7CE00DB29E3 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F1C2EB65C2BA7523C04AFCCE /* Pods-AppLactancia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppLactancia.release.xcconfig"; path = "Target Support Files/Pods-AppLactancia/Pods-AppLactancia.release.xcconfig"; sourceTree = "<group>"; };
+		FABF163B5891FB7981C3AE45 /* Pods-AppLactanciaTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppLactanciaTests.release.xcconfig"; path = "Target Support Files/Pods-AppLactanciaTests/Pods-AppLactanciaTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC7D5099386C590EF4DB1974 /* Pods_AppLactancia.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +80,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF7C0FF31ADB2238282D7EA /* Pods_AppLactanciaTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,12 +88,27 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7023CDAA3C4F22447C17A5EC /* Pods_AppLactancia_AppLactanciaUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37B6FEA65A74D3F4D2AE69AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5DF6BA21F7DDE65391A96153 /* Pods-AppLactancia.debug.xcconfig */,
+				F1C2EB65C2BA7523C04AFCCE /* Pods-AppLactancia.release.xcconfig */,
+				4F722924B646F7D2600E4700 /* Pods-AppLactancia-AppLactanciaUITests.debug.xcconfig */,
+				951F0A025989E7C399F3DEF0 /* Pods-AppLactancia-AppLactanciaUITests.release.xcconfig */,
+				7CB1B6D415D2412F96BC9C39 /* Pods-AppLactanciaTests.debug.xcconfig */,
+				FABF163B5891FB7981C3AE45 /* Pods-AppLactanciaTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		6D179DD6286CCF0F0038BAED = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +116,8 @@
 				6D179DFB286CCF100038BAED /* AppLactanciaTests */,
 				6D179E05286CCF100038BAED /* AppLactanciaUITests */,
 				6D179DE0286CCF0F0038BAED /* Products */,
+				37B6FEA65A74D3F4D2AE69AC /* Pods */,
+				9B0FB562564F4FF351F4F33D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -108,6 +141,7 @@
 				6D179DEE286CCF100038BAED /* Assets.xcassets */,
 				6D179DF0286CCF100038BAED /* LaunchScreen.storyboard */,
 				6D179DF3286CCF100038BAED /* Info.plist */,
+				E55E2040286CF7CE00DB29E3 /* GoogleService-Info.plist */,
 				6D179DEB286CCF0F0038BAED /* AppLactancia.xcdatamodeld */,
 			);
 			path = AppLactancia;
@@ -130,6 +164,16 @@
 			path = AppLactanciaUITests;
 			sourceTree = "<group>";
 		};
+		9B0FB562564F4FF351F4F33D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				262A3D0D3DADCF52ABB51551 /* Pods_AppLactancia.framework */,
+				565ACE681AED4DDA91C29E54 /* Pods_AppLactancia_AppLactanciaUITests.framework */,
+				9A0EE0EA5D6376737EEB8633 /* Pods_AppLactanciaTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D179E0C286CCF100038BAED /* Build configuration list for PBXNativeTarget "AppLactancia" */;
 			buildPhases = (
+				CD2F28078F85E96547B1C65F /* [CP] Check Pods Manifest.lock */,
 				6D179DDB286CCF0F0038BAED /* Sources */,
 				6D179DDC286CCF0F0038BAED /* Frameworks */,
 				6D179DDD286CCF0F0038BAED /* Resources */,
+				A686BA7330B0F00EF57A2E2A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -154,6 +200,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D179E0F286CCF100038BAED /* Build configuration list for PBXNativeTarget "AppLactanciaTests" */;
 			buildPhases = (
+				838CD5554EC90878BE775AC8 /* [CP] Check Pods Manifest.lock */,
 				6D179DF4286CCF100038BAED /* Sources */,
 				6D179DF5286CCF100038BAED /* Frameworks */,
 				6D179DF6286CCF100038BAED /* Resources */,
@@ -172,9 +219,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6D179E12286CCF100038BAED /* Build configuration list for PBXNativeTarget "AppLactanciaUITests" */;
 			buildPhases = (
+				FC44A82A849348FC86DC1577 /* [CP] Check Pods Manifest.lock */,
 				6D179DFE286CCF100038BAED /* Sources */,
 				6D179DFF286CCF100038BAED /* Frameworks */,
 				6D179E00286CCF100038BAED /* Resources */,
+				20418B8A3F45953126C468A3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +284,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6D179DF2286CCF100038BAED /* LaunchScreen.storyboard in Resources */,
+				E55E2041286CF7CE00DB29E3 /* GoogleService-Info.plist in Resources */,
 				6D179DEF286CCF100038BAED /* Assets.xcassets in Resources */,
 				6D179DEA286CCF0F0038BAED /* Main.storyboard in Resources */,
 			);
@@ -255,6 +305,109 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20418B8A3F45953126C468A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppLactancia-AppLactanciaUITests/Pods-AppLactancia-AppLactanciaUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppLactancia-AppLactanciaUITests/Pods-AppLactancia-AppLactanciaUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppLactancia-AppLactanciaUITests/Pods-AppLactancia-AppLactanciaUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		838CD5554EC90878BE775AC8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppLactanciaTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A686BA7330B0F00EF57A2E2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppLactancia/Pods-AppLactancia-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppLactancia/Pods-AppLactancia-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppLactancia/Pods-AppLactancia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CD2F28078F85E96547B1C65F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppLactancia-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC44A82A849348FC86DC1577 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppLactancia-AppLactanciaUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		6D179DDB286CCF0F0038BAED /* Sources */ = {
@@ -436,6 +589,7 @@
 		};
 		6D179E0D286CCF100038BAED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5DF6BA21F7DDE65391A96153 /* Pods-AppLactancia.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -463,6 +617,7 @@
 		};
 		6D179E0E286CCF100038BAED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F1C2EB65C2BA7523C04AFCCE /* Pods-AppLactancia.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -490,6 +645,7 @@
 		};
 		6D179E10286CCF100038BAED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CB1B6D415D2412F96BC9C39 /* Pods-AppLactanciaTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -509,6 +665,7 @@
 		};
 		6D179E11286CCF100038BAED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FABF163B5891FB7981C3AE45 /* Pods-AppLactanciaTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +685,7 @@
 		};
 		6D179E13286CCF100038BAED /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4F722924B646F7D2600E4700 /* Pods-AppLactancia-AppLactanciaUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -545,6 +703,7 @@
 		};
 		6D179E14286CCF100038BAED /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 951F0A025989E7C399F3DEF0 /* Pods-AppLactancia-AppLactanciaUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

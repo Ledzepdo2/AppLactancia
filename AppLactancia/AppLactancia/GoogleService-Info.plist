@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>956857173993-dl6gmk321icfhe6k72t31bh7o93bn7v2.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.956857173993-dl6gmk321icfhe6k72t31bh7o93bn7v2</string>
+	<key>API_KEY</key>
+	<string>AIzaSyC-ZhDZ76RfmVQwxe6KPEeTUYcYr_W3MME</string>
+	<key>GCM_SENDER_ID</key>
+	<string>956857173993</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>jesus.AppLactancia</string>
+	<key>PROJECT_ID</key>
+	<string>applactancia</string>
+	<key>STORAGE_BUCKET</key>
+	<string>applactancia.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:956857173993:ios:a5629b08e9f34c9f586d78</string>
+</dict>
+</plist>
