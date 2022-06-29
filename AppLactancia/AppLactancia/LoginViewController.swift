@@ -6,13 +6,20 @@
 //
 
 import UIKit
+import FirebaseAuth
+import FirebaseAnalytics
 
-class ViewController: UIViewController {
+class LoginViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+        Analytics.logEvent("InitScreen", parameters: ["Message" : "Integracion de Firebase completa"])
+        
     }
+
+    
+
 
 
 }
